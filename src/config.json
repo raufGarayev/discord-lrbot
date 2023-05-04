@@ -1,0 +1,41 @@
+{
+    "token": "YOUR TOKEN HERE",
+    "clientId": "1101468376301326446",
+    "serverName": "Brutalci.Info",
+    "database": {
+        "host": "localhost",
+        "dbuser": "YOUR_DATABASE_USERNAME",
+        "dbname": "YOUR_DATABASE_NAME",
+        "password": "YOUR_DATABASE_USER_PASSWORD"
+    },
+    "servers" : [
+        {   //example servers: name - is the server name show to embed, table- is table name on database
+            "name": "Retake",
+            "table": "lvl"
+        },
+        {
+            "name": "DM",
+            "table": "lvl_db"
+        }
+    ],
+    "translations": {
+        //translations - dont touch left side, edit only right side
+        "name": "Name",
+        "steam": "Steam",
+        "value": "Points",
+        "rank": "Rank",
+        "kills": "Kills",
+        "deaths": "Deaths",
+        "shoots": "Shoots",
+        "hits": "Hits",
+        "headshots": "Headshots",
+        "assists": "Assists",
+        "round_win": "Rounds won",
+        "round_lose": "Rounds lost",
+        "playtime": "Playtime",
+        "lastconnect": "Last connect",
+        "hours": " hours ",
+        "minutes": " minutes ",
+        "seconds": " seconds "
+    }
+}
